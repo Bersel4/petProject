@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="menu__wrapper">
+                <a href="#">Главная</a>
+                <a href="#">Контакты</a>
+            </div>
+            <img src="img/eN4k9bLgnZk.jpg">
+            <div class="menu__wrapper">
+                <a href="#test">Услуги</a>
+                <a href="#">Обратная связь</a>
+                <a href="Account.html">Личный кабинет</a>
+                <a href=""></a>
+            </div>
+        </div>
+    </header>
+    <!-- section__sellNFt start -->
+
+
+    <section class="section__sellNFt">
+        <div class="sellNFt__bg"></div>
+        <img class="sellNFt__img1" src="./img/section__sellNFt/1.png">
+        <img class="sellNFt__img2" src="./img/section__sellNFt/2.png">
+        <img class="sellNFt__img3" src="./img/section__sellNFt/3.png">
+        <img class="sellNFt__img4" src="./img/section__sellNFt/4.png">
+        <h1>Детский психологический центр Мозаика</h1>
+        <p>Детский психологический центр «Мозаика» находится в Калуге уже 16 лет!
+            Работаем по направлениям: 
+        </p>
+        <button>Let`s sell</button>
+    </section>
+    <!-- section__sellNFt end -->
+
+    <!-- section__team start -->
+    <div class="section__team">
+    <div id="test"class="nft__h2">Услуги: Работаем по направлениям:</div>
+    <div class="nft__h3">Детский психологический центр «Мозаика» работает по направлениям: </div>
+
+    <div class="wrapper">
+        <div class="provide__wrapper">
+            <img src="img/Услуги/Бассейн.jpg" alt="">
+            <p>Host your NFTs</p>
+            <span>Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices </span>
+        </div>
+
+        <div class="provide__wrapper">
+            <img src="img/Услуги/Деский сад.jpg" alt="">
+            <p>See your sales</p>
+            <span>Integer ante non nunc, eget est justo vel semper nunc. Lacus </span>
+        </div>
+
+        <div class="provide__wrapper">
+            <img src="img/Услуги/Подготовка к школе.jpg" alt="">
+            <p>Secure wallet</p>
+            <span>Sed faucibus faucibus egestas volutpat, accumsan adipiscing egestas est. Auctor et leo urna
+                est.</span>
+        </div>
+
+        <div class="provide__wrapper">
+            <img src="img/Услуги/Студия раннего развития.jpg" alt="">
+            <p>No scam</p>
+            <span>Sed faucibus faucibus egestas volutpat, accumsan adipiscing egestas est. Auctor et leo urna
+                est.</span>
+    </section>
+
+    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+        <div class="form-zvonok"> 
+          <div>
+            <label>Имя <span>*</span></label>
+            <input type='text' name='username' required></div>
+          <div>
+            <label>Номер телефона (с кодом) <span>*</span></label>
+            <input type='text' name='usernumber' required></div>
+          <div>
+            <label>Сообщение</label>
+            <input type='text' name='question'>
+          </div>
+          <input class="bot-send-mail" type='submit' value='Послать заявку'>
+        </div>
+        </form>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+</body>
+</html>
+
+
