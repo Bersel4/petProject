@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Services.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="menu__wrapper">
+                <a href="index.html">Главная</a>
+                <a href="#">Контакты</a>
+            </div>
+            <img src="img/eN4k9bLgnZk.jpg">
+            <div class="menu__wrapper">
+                <a href="Services.html">Услуги</a>
+                <a href="#">Обратная связь</a>
+                <!-- <a href="Account.html">Личный кабинет</a> -->
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow_container">
+
+        <div class="mySlides">
+            <div class="fade">
+                <div class="numbertext">1/4</div>
+                <img src="./img/Услуги/Бассейн.jpg" alt="img" />
+                <div class="shortInfo">Описание</div>
+                <a href="/services/pool.html">Перейти к полному описанию</a>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="fade">
+                <div class="numbertext">2/4</div>
+                <img src="./img/Услуги/Деский сад.jpg" alt="img" />
+                <div class="shortInfo">Описание</div>
+                <a href="/services/child.html">Перейти к полному описанию</a>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="fade">
+                <div class="numbertext">3/4</div>
+                <img src="./img/Услуги/Подготовка к школе.jpg" alt="img" />
+                <div class="shortInfo">Описание</div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="fade">
+                <div class="numbertext">4/4</div>
+                <img src="./img/Услуги/Студия раннего развития.jpg" alt="img" />
+                <div class="shortInfo">Описание</div>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+    <br>
+
+    <div class="dot_container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+    </div>
+
+    <script src="./js/Services.js"></script>
+</body>
+
+</html>
